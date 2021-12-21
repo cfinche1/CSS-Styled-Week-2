@@ -1,0 +1,76 @@
+img {
+    float: right;
+}
+
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    background-color: blue;
+}
+
+.hov {
+    border-style: groove;
+    height: 60px;
+    width: 100px;
+    background-color: chocolate;
+}
+
+a{
+    color: lavenderblush;
+}
+a:hover{
+    background-color: lightcoral;
+}
+
+.every-even li:nth-child(even) {
+    background-color: forestgreen;
+}
+
+.every-even li:nth-child(odd) {
+    background-color: darkgreen;
+}
+
+#outline {
+    border-style: double;
+    width: 60px;
+    border-width: 3px;
+    background-color: hotpink;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr{
+background-color: indigo;
+color: ivory;
+}
+
+tr:hover{
+    background-color: darkorchid;
+}
+
+form{
+    background-color: burlywood;
+}
+    
+.click:hover{
+    background-color: lightgoldenrodyellow;
+}
+
+h3{
+    color: darkred;
+}
+
+li{
+    color: white;
+}
